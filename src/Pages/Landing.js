@@ -1,10 +1,10 @@
-import Nav from '../Components/Nav'
+import Navigation from '../Components/Navigation'
 import Footer from '../Components/Footer'
 
 function Landing() {
     return (
         <>
-            <Nav />
+            <Navigation />
             <Footer />
         </>
     )
