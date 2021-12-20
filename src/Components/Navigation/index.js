@@ -5,14 +5,17 @@ import Nav from 'react-bootstrap/Nav'
 
 function Navigation() {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="light" expand="md">
             <Container>
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                <Navbar.Brand href="#home">Noio Pathways</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#link">Link</Nav.Link>
+                <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+                    <Nav>
+                        <Nav.Link href="#about">About</Nav.Link>
+                        <Nav.Link href="#values">Values</Nav.Link>
+                        <Nav.Link href="#services">Services</Nav.Link>
+                        <Nav.Link href="#founder">Founder</Nav.Link>
+                        <Nav.Link href="#contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
