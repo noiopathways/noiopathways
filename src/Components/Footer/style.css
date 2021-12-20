@@ -1,7 +1,8 @@
 .footer {
     clear: both;
     position: absolute;
-    background-color:transparent;
+    background-color:ghostwhite;
     bottom: 0;
     width: 100%;
+    text-align: center;
     }
