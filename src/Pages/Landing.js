@@ -3,6 +3,7 @@ import Hero from '../Components/Hero'
 import About from '../Components/About'
 import Values from '../Components/Values'
 import Services from '../Components/Services'
+import Founder from '../Components/Founder'
 import Footer from '../Components/Footer'
 
 function Landing() {
@@ -13,6 +14,7 @@ function Landing() {
             <About />
             <Values />
             <Services />
+            <Founder />
             <Footer />
         </>
     )
