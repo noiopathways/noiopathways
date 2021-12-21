@@ -5,7 +5,7 @@ import './style.css'
 
 function Hero() {
     return (
-        <Container>
+        <Container className="hero">
             Hero
         </Container>
     )
