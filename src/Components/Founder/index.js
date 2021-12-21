@@ -2,6 +2,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Image from 'react-bootstrap/Image'
 import './style.css'
 
 function Founder() {
@@ -9,7 +10,7 @@ function Founder() {
         <Container className="founder">
             <Row xs={1} sm={2}>
                 <Col className="text-center" style={{ backgroundColor: "bisque" }}>
-                    Col1
+                    <Image src="https://generative-placeholders.glitch.me/image?width=300&height=200&style=joy-division" />
                 </Col>
                 <Col className="text-center" style={{ backgroundColor: "wheat" }}>
                     <h1 className="text-center">About Our Founder</h1>
