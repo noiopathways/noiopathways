@@ -23,7 +23,7 @@ function Values() {
         }
     ]
     return (
-        <Container className="values">
+        <Container className="values" id="values">
             <h1 className="text-center">Our Values</h1>
             <CardGrid data={valuesObject} />
         </Container>

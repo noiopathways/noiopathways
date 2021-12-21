@@ -4,7 +4,7 @@ import './style.css'
 
 function Hero() {
     return (
-        <div className="hero">
+        <div className="hero" id="home">
             Hero
         </div>
     )

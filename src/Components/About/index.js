@@ -8,7 +8,7 @@ import './style.css'
 
 function About() {
     return (
-        <Container className="about">
+        <Container className="about" id="about">
             <Row xs={1} sm={2}>
                 <Col className="text-center my-auto">
                     <h1 className="text-center">About Noio Pathways</h1>

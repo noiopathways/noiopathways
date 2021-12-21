@@ -7,7 +7,7 @@ import './style.css'
 
 function Founder() {
     return (
-        <Container className="founder">
+        <Container className="founder" id="founder">
             <Row xs={1} sm={2}>
                 <Col className="image-container">
                     <Image src="https://generative-placeholders.glitch.me/image?width=350&height=400&style=joy-division" />

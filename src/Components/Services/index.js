@@ -23,7 +23,7 @@ function Services() {
         }
     ]
     return (
-        <Container className="services">
+        <Container className="services" id="services">
             <h1 className="text-center">Our Services</h1>
             <CardGrid data={servicesObject} />
         </Container>
