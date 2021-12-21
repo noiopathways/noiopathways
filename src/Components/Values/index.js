@@ -24,6 +24,7 @@ function Values() {
     ]
     return (
         <Container className="values">
+            <h1 className="text-center">Our Values</h1>
             <CardGrid data={valuesObject} />
         </Container>
     )
