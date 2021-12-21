@@ -1,13 +1,12 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container'
 
 import './style.css'
 
 function Hero() {
     return (
-        <Container className="hero">
+        <div className="hero">
             Hero
-        </Container>
+        </div>
     )
 }
 

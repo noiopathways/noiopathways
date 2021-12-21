@@ -1,3 +1,5 @@
 .hero {
-  background-color: #ce796b;
+  background-image: url("https://generative-placeholders.glitch.me/image?width=600&height=300&style=cellular-automata&cells=50");
+  width: 100vw;
+  height: 56.25vh;
 }
