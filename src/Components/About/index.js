@@ -10,13 +10,13 @@ function About() {
     return (
         <Container className="about">
             <Row xs={1} sm={2}>
-                <Col className="text-center">
+                <Col className="text-center my-auto">
                     <h1 className="text-center">About Noio Pathways</h1>
 
                     Ugh williamsburg unicorn keytar labore meggings fam hashtag ut velit. Tbh dolore live-edge, selfies YOLO shoreditch eu subway tile est kombucha. Cronut readymade irony blog. Dolore mlkshk schlitz pok pok gluten-free skateboard hella lumbersexual heirloom, cupidatat gastropub dolore disrupt adipisicing. Vape pug vegan neutra ullamco officia pariatur polaroid semiotics keytar vice affogato knausgaard. Art party laborum offal in ut dolore mlkshk literally pour-over chambray pariatur. Keffiyeh heirloom locavore, aliqua dreamcatcher in pitchfork blog hashtag umami.
                 </Col>
-                <Col className="text-center">
-                    <Image src="https://picsum.photos/300/200" />
+                <Col className="image-container">
+                    <Image src="https://picsum.photos/350/500" />
                 </Col>
             </Row>
         </Container>

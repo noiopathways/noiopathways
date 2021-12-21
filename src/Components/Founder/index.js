@@ -9,10 +9,10 @@ function Founder() {
     return (
         <Container className="founder">
             <Row xs={1} sm={2}>
-                <Col className="text-center" >
-                    <Image src="https://generative-placeholders.glitch.me/image?width=300&height=200&style=joy-division" />
+                <Col className="image-container">
+                    <Image src="https://generative-placeholders.glitch.me/image?width=350&height=400&style=joy-division" />
                 </Col>
-                <Col className="text-center">
+                <Col className="text-center my-auto">
                     <h1 className="text-center">About Our Founder</h1>
                     Waistcoat you probably haven't heard of them hoodie, cold-pressed jianbing tattooed copper mug craft beer pabst gentrify. XOXO before they sold out craft beer hexagon butcher poutine pickled DIY fashion axe selfies. Deep v viral semiotics echo park +1, blue bottle hammock cred food truck everyday carry. Irony poutine raclette craft beer.
 
