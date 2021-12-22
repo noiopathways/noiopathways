@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row"
 import Col from 'react-bootstrap/Col'
 import { FaLinkedin, FaInstagramSquare } from "react-icons/fa";
 
-import Form from '../Form'
+import FormComponent from '../Form'
 import './style.css'
 
 function Contact() {
@@ -17,7 +17,7 @@ function Contact() {
                         <div><FaLinkedin /> <FaInstagramSquare /></div></Container>
                 </Col>
                 <Col sm={8} className="formCol">
-                    <Form />
+                    <FormComponent />
                 </Col>
             </Row>
         </Container>
