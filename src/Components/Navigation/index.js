@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav'
 
 function Navigation() {
     return (
-        <Navbar bg="light" expand="md" sticky="top">
+        <Navbar bg="transparent" expand="md" sticky="top">
             {/* todo: revisit sticky vs fixed and browser support */}
             <Navbar.Brand href="#">Noio Pathways</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

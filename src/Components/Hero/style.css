@@ -1,5 +1,7 @@
 .hero {
-  background-image: url("https://generative-placeholders.glitch.me/image?width=600&height=300&style=cellular-automata&cells=50");
+  background-image: url("../../assets/images/hero.jpg");
+  background-size: cover;
   width: 100%;
-  height: 56.25vh;
+  height: 60vh;
+  margin-top: -56px;
 }
