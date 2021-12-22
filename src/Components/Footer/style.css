@@ -7,11 +7,12 @@
   text-align: center;
 }
 
-.footer a:link {
+.footer a {
+  color: sienna;
   text-decoration: none;
 }
 
 .footer a:hover {
-  color: plum;
+  color: indianred;
   text-decoration: underline;
 }

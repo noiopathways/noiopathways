@@ -6,7 +6,7 @@ import './style.css'
 
 function Navigation() {
     return (
-        <Navbar className="navBackground" expand="md" sticky="top">
+        <Navbar className="navBackgroundTransparent" variant="dark" expand="md" sticky="top">
             {/* todo: revisit sticky vs fixed and browser support */}
             <Navbar.Brand href="#">Noio Pathways</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
