@@ -19,7 +19,7 @@ function FormComponent() {
                     <Col sm={6} style={{ paddingBottom: 10 }}><Form.Control type="email" name="email" placeholder="Your Email" /></Col>
                 </Row>
                 <Row style={{ paddingBottom: 10 }}>
-                    <Col><Form.Control as="textarea" name="message" placeholder="Message" required /></Col>
+                    <Col><Form.Control as="textarea" name="message" placeholder="Message" style={{ height: '200px' }} required /></Col>
                 </Row>
                 <Row >
                     <Col style={{ display: "flex", justifyContent: "end" }}><Button type="submit">Submit</Button></Col>

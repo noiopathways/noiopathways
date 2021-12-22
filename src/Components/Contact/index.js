@@ -10,7 +10,7 @@ import './style.css'
 function Contact() {
     return (
         <Container className="contact" id="contact">
-            <Row xs={1} sm={2} style={{ display: "flex", justifyContent: "center" }}>
+            <Row xs={1} sm={2} style={{ display: "flex", justifyContent: "center", alignItems: 'center' }}>
                 <Col sm={4}>
                     <h1 className="text-center">Contact Us</h1>
                     <Container style={{ paddingBottom: "30px" }}>Mollit enim fam af nulla hexagon narwhal pug bicycle rights deep v veniam.<br />
