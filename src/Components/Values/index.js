@@ -1,5 +1,4 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container'
 
 import CardGrid from '../CardGrid'
 import './style.css'
@@ -23,10 +22,10 @@ function Values() {
         }
     ]
     return (
-        <Container className="values" id="values">
+        <div className="values" id="values">
             <h1 className="text-center">Our Values</h1>
             <CardGrid data={valuesObject} />
-        </Container>
+        </div>
     )
 }
 
