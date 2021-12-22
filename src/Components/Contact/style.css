@@ -1,3 +1,10 @@
 .contact {
   padding-top: 56px;
 }
+
+.formCol {
+  background-color: lavender;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

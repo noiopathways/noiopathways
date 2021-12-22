@@ -13,10 +13,10 @@ function Contact() {
             <Row xs={1} sm={2} style={{ display: "flex", justifyContent: "center" }}>
                 <Col sm={4} style={{ backgroundColor: "bisque" }}>
                     <h1 className="text-center">Contact Us</h1>
-                    Mollit enim fam af nulla hexagon narwhal pug bicycle rights deep v veniam.<br />
-                    <div><FaLinkedin /> <FaInstagramSquare /></div>
+                    <Container>Mollit enim fam af nulla hexagon narwhal pug bicycle rights deep v veniam.<br />
+                        <div><FaLinkedin /> <FaInstagramSquare /></div></Container>
                 </Col>
-                <Col sm={8} style={{ backgroundColor: "wheat" }}>
+                <Col sm={8} className="formCol">
                     <Form />
                 </Col>
             </Row>
