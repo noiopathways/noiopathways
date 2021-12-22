@@ -12,6 +12,7 @@ function Form() {
             < form action="https://formsubmit.co/puakehaulani.dev@gmail.com" method="POST" >
                 {/* TODO: update redirect page link below */}
                 < input type="hidden" name="_next" value="http://localhost:3000/" ></input >
+                <input type="hidden" name="_template" value="basic"></input>
                 <input type="hidden" name="_subject" value="New Website Contact Form Message"></input>
                 <Row>
                     <Col><input type="text" name="name" placeholder="Your Name" required /></Col>
