@@ -1,11 +1,13 @@
 import React from 'react'
+import Container from 'react-bootstrap/Container'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 
+import './style.css'
 
 function Navigation() {
     return (
-        <Navbar bg="transparent" expand="md" sticky="top">
+        <Navbar className="navBackground" expand="md" sticky="top">
             {/* todo: revisit sticky vs fixed and browser support */}
             <Navbar.Brand href="#">Noio Pathways</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -19,6 +21,7 @@ function Navigation() {
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
+
     )
 }
 
