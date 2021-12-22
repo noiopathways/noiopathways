@@ -10,7 +10,7 @@ function Founder() {
         <Container className="founder" id="founder">
             <Row xs={1} sm={2}>
                 <Col className="image-container">
-                    <Image src="./images/founder.png" height={400} width={400} fluid />
+                    <Image src="./images/founder.png" height={400} width={400} rounded fluid />
                 </Col>
                 <Col className="text-center my-auto">
                     <h1 className="text-center">About Our Founder</h1>
