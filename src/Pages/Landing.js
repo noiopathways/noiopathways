@@ -4,6 +4,7 @@ import About from '../Components/About'
 import Values from '../Components/Values'
 import Services from '../Components/Services'
 import Founder from '../Components/Founder'
+import Contact from '../Components/Contact'
 import Footer from '../Components/Footer'
 
 function Landing() {
@@ -15,6 +16,7 @@ function Landing() {
             <Values />
             <Services />
             <Founder />
+            <Contact />
             <Footer />
         </>
     )
