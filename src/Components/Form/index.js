@@ -14,9 +14,9 @@ function FormComponent() {
                 < input type="hidden" name="_next" value="http://localhost:3000/" />
                 <input type="hidden" name="_template" value="box" />
                 <input type="hidden" name="_subject" value="New Website Contact Form Message" />
-                <Row style={{ paddingBottom: 10 }}>
-                    <Col sm={6} style={{ paddingRight: 5 }}><Form.Control type="text" name="name" placeholder="Your Name" /></Col>
-                    <Col sm={6} style={{ paddingLeft: 5 }}><Form.Control type="email" name="email" placeholder="Your Email" /></Col>
+                <Row>
+                    <Col sm={6} style={{ paddingBottom: 10 }}><Form.Control type="text" name="name" placeholder="Your Name" /></Col>
+                    <Col sm={6} style={{ paddingBottom: 10 }}><Form.Control type="email" name="email" placeholder="Your Email" /></Col>
                 </Row>
                 <Row style={{ paddingBottom: 10 }}>
                     <Col><Form.Control as="textarea" name="message" placeholder="Message" required /></Col>
