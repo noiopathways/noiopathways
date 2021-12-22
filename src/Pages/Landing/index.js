@@ -11,7 +11,7 @@ import './style.css'
 
 function Landing() {
     return (
-        <>
+        <div className="landingPage">
             <Navigation />
             <Hero />
             <About />
@@ -20,7 +20,7 @@ function Landing() {
             <Founder />
             <Contact />
             <Footer />
-        </>
+        </div>
     )
 }
 
