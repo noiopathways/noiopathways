@@ -13,8 +13,9 @@ function Contact() {
             <Row xs={1} sm={2} style={{ display: "flex", justifyContent: "center" }}>
                 <Col sm={4}>
                     <h1 className="text-center">Contact Us</h1>
-                    <Container>Mollit enim fam af nulla hexagon narwhal pug bicycle rights deep v veniam.<br />
-                        <div><FaLinkedin /> <FaInstagramSquare /></div></Container>
+                    <Container style={{ paddingBottom: "30px" }}>Mollit enim fam af nulla hexagon narwhal pug bicycle rights deep v veniam.<br />
+                        <h1><FaLinkedin /> <FaInstagramSquare /></h1>
+                    </Container>
                 </Col>
                 <Col sm={8} className="formCol">
                     <FormComponent />
