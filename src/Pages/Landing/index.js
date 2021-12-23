@@ -3,7 +3,7 @@ import Hero from '../../Components/Hero'
 import About from '../../Components/About'
 import Values from '../../Components/Values'
 import Services from '../../Components/Services'
-import Founder from '../../Components/Founder'
+import Team from '../../Components/Team'
 import Contact from '../../Components/Contact'
 import Footer from '../../Components/Footer'
 
@@ -17,7 +17,7 @@ function Landing() {
             <About />
             <Values />
             <Services />
-            <Founder />
+            <Team />
             <Contact />
             <Footer />
         </div>

@@ -8,3 +8,7 @@
   /* #0e404b; */
   padding: 8;
 }
+
+.navbar-brand {
+  margin-left: 10px;
+}

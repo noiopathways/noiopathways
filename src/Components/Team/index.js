@@ -5,9 +5,9 @@ import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
 import './style.css'
 
-function Founder() {
+function Team() {
     return (
-        <Container className="founder" id="founder">
+        <Container className="team" id="team">
             <Row xs={1} sm={2}>
                 <Col className="image-container">
                     <Image src="./images/founder.png" height={400} width={400} rounded fluid />
@@ -25,4 +25,4 @@ function Founder() {
     )
 }
 
-export default Founder
+export default Team
