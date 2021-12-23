@@ -3,5 +3,9 @@
   background-size: cover;
   width: 100%;
   height: 70vh;
-  margin-top: -56px;
+  margin-top: -76px;
+}
+
+.logoText {
+  padding-top: 35px;
 }
