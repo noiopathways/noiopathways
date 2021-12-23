@@ -8,17 +8,17 @@ function Values() {
     const valuesObject = [
         {
             title: "Value 1",
-            image: "./images/quote1.png",
+            image: "./images/path1.jpg",
             // text: "I'm baby williamsburg id mlkshk kitsch laborum. Woke meditation cornhole hammock, kale chips try-hard distillery shabby chic flexitarian man braid austin 3 wolf moon XOXO."
         },
         {
             title: "Value 2",
-            image: "./images/quote2.png",
+            image: "./images/path2.jpg",
             // text: "Ut proident taxidermy, celiac lorem pitchfork banh mi kale chips viral excepteur crucifix ennui. Tofu sustainable portland cupidatat consectetur lomo, occaecat selvage try-hard readymade woke small batch."
         },
         {
             title: "Value 3",
-            image: "./images/quote1.png",
+            image: "./images/path3.jpeg",
             // text: "Cloud bread ex stumptown poke next level dolore pabst you probably haven't heard of them williamsburg pop-up adipisicing wolf chillwave bicycle rights."
         }
     ]
