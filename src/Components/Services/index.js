@@ -8,17 +8,17 @@ function Services() {
     const servicesObject = [
         {
             title: "Service 1",
-            image: "https://picsum.photos/200",
+            image: "./images/quote1.png",
             text: "Umami you probably haven't heard of them health goth, aesthetic vegan beard palo santo bushwick."
         },
         {
             title: "Service 2",
-            image: "https://picsum.photos/200",
+            image: "./images/quote2.png",
             text: "I'm baby salvia waistcoat fashion axe small batch. Craft beer godard ugh hella slow-carb occupy chillwave coloring book flexitarian 90's farm-to-table photo booth."
         },
         {
             title: "Service 3",
-            image: "https://picsum.photos/200",
+            image: "./images/quote1.png",
             text: " Cliche occupy humblebrag, swag actually VHS vape normcore bespoke keffiyeh hammock trust fund paleo."
         }
     ]

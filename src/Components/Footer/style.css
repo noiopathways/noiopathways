@@ -15,4 +15,5 @@
 .footer a:hover {
   color: indianred;
   text-decoration: underline;
+  cursor: url(../../assets/images/cursor.png), pointer;
 }

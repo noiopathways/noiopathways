@@ -1,16 +1,13 @@
 .landingPage {
-  background-color: sandybrown;
+  background-color: bisque;
   font-family: "Raleway", san-serif;
   color: black;
 }
 
-h1 {
-  color: white;
-  filter: drop-shadow(0px 0px 5px rosybrown);
-}
+h1,
 h3 {
-  color: black;
-  filter: drop-shadow(0px 0px 5px rosybrown);
+  color: #0e404b;
+  filter: drop-shadow(0px 0px 5px #c27753);
 }
 
 .image-container {

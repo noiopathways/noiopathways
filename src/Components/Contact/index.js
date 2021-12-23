@@ -14,7 +14,8 @@ function Contact() {
                 <Col sm={4} className="text-center">
                     <h1 >Contact Us</h1>
                     <Container style={{ paddingBottom: "30px" }}>Mollit enim fam af nulla hexagon narwhal pug bicycle rights deep v veniam.<br />
-                        <h1 ><FaLinkedin /> <FaInstagramSquare /></h1>
+                        <h1 ><a style={{ color: "#0e404b" }} href="https://www.linkedin.com/in/jstroble/" target="_blank" rel='noreferrer'><FaLinkedin /></a>
+                            <a style={{ color: "#0e404b" }} href="https://www.instagram.com/hapajame/" target="_blank" rel='noreferrer'><FaInstagramSquare /></a></h1>
                     </Container>
                 </Col>
                 <Col sm={8} className="formCol">

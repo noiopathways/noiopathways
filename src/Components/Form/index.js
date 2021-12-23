@@ -8,8 +8,7 @@ import Button from 'react-bootstrap/Button'
 function FormComponent() {
     return (
         <Container className="contactForm">
-            {/* TODO: update email below to jamies */}
-            < Form action="https://formsubmit.co/puakehaulani.dev@gmail.com" method="POST" >
+            < Form action="https://formsubmit.co/Jamie@noiopathways.com" method="POST" >
                 {/* TODO: update redirect page link below */}
                 < input type="hidden" name="_next" value="http://localhost:3000/" />
                 <input type="hidden" name="_template" value="box" />
