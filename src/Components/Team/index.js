@@ -12,7 +12,7 @@ function Team() {
                 <Col className="image-container">
                     <Image src="./images/founder.png" height={400} width={400} rounded fluid />
                 </Col>
-                <Col className="text-center my-auto">
+                <Col className="text-center my-auto textContainerTeam">
                     <h1 className="text-center">About Our Founder</h1>
                     Jamie is a hammah even tho she Punahou, cold-pressed jianbing tattooed copper mug craft beer pabst gentrify. XOXO before they sold out craft beer hexagon butcher poutine pickled DIY fashion axe selfies. Deep v viral semiotics echo park +1, blue bottle hammock cred food truck everyday carry. Irony poutine raclette craft beer.
 
