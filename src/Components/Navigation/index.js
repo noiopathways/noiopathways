@@ -7,7 +7,7 @@ import './style.css'
 
 function Navigation() {
     return (
-        <Navbar className="navBackgroundTransparent" variant="dark" expand="md" sticky="top">
+        <Navbar className="navBackgroundColor" variant="dark" expand="md" sticky="top">
             {/* todo: revisit sticky vs fixed and browser support */}
             <Navbar.Brand href="#"><Image src="./images/logo.png" height={50} /></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
