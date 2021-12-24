@@ -9,8 +9,8 @@ function Hero() {
     return (
         <div className="hero" id="home">
             <Container>
-                <Row><Image className="logoText" src="./images/logoText.png" fluid /></Row>
-                <Row><span>Tagline here</span></Row>
+                <Row className="logoText" ><Image src="./images/logoText.png" /></Row>
+                <Row className="tagline">I Mua Kamehameha E</Row>
             </Container>
         </div>
     )
