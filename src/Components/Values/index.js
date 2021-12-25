@@ -18,7 +18,7 @@ function Values() {
         },
         {
             title: "Value 3",
-            image: "./images/path3.jpeg",
+            image: "./images/path3.jpg",
             // text: "Cloud bread ex stumptown poke next level dolore pabst you probably haven't heard of them williamsburg pop-up adipisicing wolf chillwave bicycle rights."
         }
     ]
