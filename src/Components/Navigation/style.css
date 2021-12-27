@@ -12,3 +12,8 @@
 .navbar-brand {
   margin-left: 10px;
 }
+
+.show,
+.collapsing {
+  background-color: #c27753;
+}
