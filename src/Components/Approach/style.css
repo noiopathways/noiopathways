@@ -5,6 +5,6 @@
 /* mobile screens */
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .textContainerApproach {
-    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
