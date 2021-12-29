@@ -19,13 +19,12 @@ function Navigation() {
 
     return (
         <Navbar className={` ${transparentBg ? "navBackgroundTransparent" : "navBackgroundColor"}`} variant="dark" expand="md" sticky="top">
-            {/* todo: revisit sticky vs fixed and browser support */}
             <Navbar.Brand href="#">{transparentBg ? <></> : <Image src="./images/logo.png" height={50} />}</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                 <Nav>
                     <Nav.Link href="#about">About</Nav.Link>
-                    <Nav.Link href="#values">Values</Nav.Link>
+                    <Nav.Link href="#approach">Approach</Nav.Link>
                     <Nav.Link href="#services">Services</Nav.Link>
                     <Nav.Link href="#team">Team</Nav.Link>
                     <Nav.Link href="#contact">Contact</Nav.Link>

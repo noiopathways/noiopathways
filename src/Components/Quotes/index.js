@@ -4,30 +4,30 @@ import React from 'react'
 import CardGrid from '../CardGrid'
 import './style.css'
 
-function Values() {
-    const valuesObject = [
+function Quotes() {
+    const quotesObject = [
         {
-            title: "Value 1",
-            image: "./images/path1.jpg",
-            // text: "I'm baby williamsburg id mlkshk kitsch laborum. Woke meditation cornhole hammock, kale chips try-hard distillery shabby chic flexitarian man braid austin 3 wolf moon XOXO."
+            title: "name 1",
+            image: "./images/quote1.png",
+            // text: "I'm baby williamsburg id mlkshk kitsch laborum. Woke meditation rnhole hammock, kale chips try-hard distillery shabby chic flexitarian man braid austin 3 wolf moon XOXO."
         },
         {
-            title: "Value 2",
-            image: "./images/path2.jpg",
+            title: "name 2",
+            image: "./images/quote2.png",
             // text: "Ut proident taxidermy, celiac lorem pitchfork banh mi kale chips viral excepteur crucifix ennui. Tofu sustainable portland cupidatat consectetur lomo, occaecat selvage try-hard readymade woke small batch."
         },
         {
-            title: "Value 3",
-            image: "./images/path3.jpg",
+            title: "name 3",
+            image: "./images/quote1.png",
             // text: "Cloud bread ex stumptown poke next level dolore pabst you probably haven't heard of them williamsburg pop-up adipisicing wolf chillwave bicycle rights."
         }
     ]
     return (
-        <div className="values" id="values">
-            <h1 className="text-center">Our Values</h1>
-            <CardGrid data={valuesObject} />
+        <div className="quotes" id="quotes">
+            <h1 className="text-center">What People Are Saying</h1>
+            <CardGrid data={quotesObject} />
         </div>
     )
 }
 
-export default Values
+export default Quotes

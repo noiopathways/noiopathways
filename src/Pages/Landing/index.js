@@ -1,7 +1,8 @@
 import Navigation from '../../Components/Navigation'
 import Hero from '../../Components/Hero'
 import About from '../../Components/About'
-import Values from '../../Components/Values'
+import Approach from '../../Components/Approach'
+import Quotes from '../../Components/Quotes'
 import Services from '../../Components/Services'
 import Team from '../../Components/Team'
 import Contact from '../../Components/Contact'
@@ -15,8 +16,9 @@ function Landing() {
             <Navigation />
             <Hero />
             <About />
-            <Values />
+            <Approach />
             <Services />
+            <Quotes />
             <Team />
             <Contact />
             <Footer />
