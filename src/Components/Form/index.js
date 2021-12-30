@@ -9,8 +9,7 @@ function FormComponent() {
     return (
         <Container className="contactForm">
             < Form action="https://formsubmit.co/Jamie@noiopathways.com" method="POST" >
-                {/* TODO: update redirect page link below */}
-                < input type="hidden" name="_next" value="http://localhost:3000/" />
+                < input type="hidden" name="_next" value="https://www.noiopathways.com/" />
                 <input type="hidden" name="_template" value="box" />
                 <input type="hidden" name="_subject" value="New Website Contact Form Message" />
                 <Row>
