@@ -1,4 +1,4 @@
-.values {
+.quotes {
   background-image: linear-gradient(
       rgba(249, 252, 245, 0.8),
       rgb(249, 252, 245, 0.8)
@@ -6,14 +6,14 @@
     url("../../assets/images/background2.jpg");
   background-size: cover;
   width: 100%;
-  margin-top: 56px;
+  margin-top: 10px;
   padding: 75px 0;
   z-index: 1;
 }
 
 /* mobile screens */
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .values {
+  .quotes {
     padding-bottom: 10px;
   }
 }

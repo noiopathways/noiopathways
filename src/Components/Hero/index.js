@@ -10,7 +10,7 @@ function Hero() {
         <div className="hero" id="home">
             <Container>
                 <Row className="logoText" ><Image src="./images/logoText.png" /></Row>
-                <Row className="tagline">I Mua Kamehameha E</Row>
+                {/* <Row className="tagline"></Row> */}
             </Container>
         </div>
     )
