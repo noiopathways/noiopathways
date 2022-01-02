@@ -2,7 +2,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Image from 'react-bootstrap/Image'
+import Figure from 'react-bootstrap/Figure'
 
 import './style.css'
 
@@ -11,7 +11,10 @@ function About() {
         <Container className="about" id="about">
             <Row xs={1} sm={2}>
                 <Col className="image-container">
-                    <Image src="./images/about.jpg" height={400} width={400} rounded fluid />
+                    <Figure>
+                        <Figure.Image src="./images/about.jpg" alt="Silhouette of founder and OC1 canoe at sunset. Credit: Dennis Wise" height={400} width={400} rounded fluid />
+                        <Figure.Caption>Credit: Dennis Wise</Figure.Caption>
+                    </Figure>
                 </Col>
                 <Col className="text-center my-auto textContainerAbout">
                     <h1 className="text-center">About Noio Pathways</h1>
