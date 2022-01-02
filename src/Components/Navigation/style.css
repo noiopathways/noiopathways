@@ -17,3 +17,7 @@
 .collapsing {
   background-color: #c27753;
 }
+
+.navbar {
+  font-weight: bolder;
+}

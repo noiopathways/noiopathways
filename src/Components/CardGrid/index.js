@@ -29,8 +29,8 @@ function CardGridListItem(props) {
     )
 
     return (
-        <Container>
-            <Row xs={1} sm={3}>
+        <Container >
+            <Row xs={1} sm={3} className="listItemRows">
                 {colContent}
             </Row>
         </Container>

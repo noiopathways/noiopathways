@@ -32,6 +32,19 @@ function Services() {
                 "Evaluation"
 
             ]
+        },
+        {
+            title: "Support the Community of Navigators",
+            image: "./images/path4.jpg",
+            listItem: [
+                "Leadership development programming",
+                "Tailored trainings & workshops",
+                "Curriculum development",
+                "Youth-centered workshops",
+                "Civic engagement trainings",
+                "Individual & group coaching",
+                "BIPOC and WOC leadership resourcing"
+            ]
         }
     ]
     return (
