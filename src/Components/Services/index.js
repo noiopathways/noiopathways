@@ -48,9 +48,9 @@ function Services() {
         }
     ]
     return (
-        <Container className="services" id="services">
+        <Container className="services" id="offerings">
             <Banner />
-            <h1 className="text-center">Our Services</h1>
+            <h1 className="text-center">Our Offerings</h1>
             <CardGridListItem data={servicesObject} />
         </Container>
     )
