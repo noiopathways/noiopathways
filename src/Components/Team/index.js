@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
+import CardGrid from '../CardGrid'
 import './style.css'
 
 function Team() {
@@ -31,9 +32,29 @@ function Team() {
 export default Team
 
 export const Collaborators = () => {
+    const collaborators = [
+        {
+            title: "Dinah Wilson",
+            image: "https://i.pravatar.cc/300?img=31",
+            text: "Founder & Facilitator of Kent Cultural Diversity Initiative Group (KC-DIG)"
+        },
+        {
+            title: "Lexi Scales",
+            image: "https://i.pravatar.cc/300?img=15",
+            text: "imua kamehameha",
+            link: 'https://lexi.scalesdev.com'
+        },
+        {
+            title: "Kim Yu, MPH",
+            image: "https://i.pravatar.cc/300?img=49",
+            text: "Health Equity Consultant"
+        }
+    ]
     return (
-        <Container style={{ backgroundColor: 'pink' }}>
-            Collaborators!
+        <Container className='team' >
+            <h1 className="text-center">Collaborators</h1>
+            <p>If one examines precultural libertarianism, one is faced with a choice: either accept rationalism or conclude that context is a product of the masses, given that Marx’s essay on precultural libertarianism is invalid. The subject is contextualised into a precapitalist dematerialism that includes culture as a reality.</p>
+            <CardGrid data={collaborators} />
         </Container>
     )
 }
@@ -41,25 +62,28 @@ export const Collaborators = () => {
 export const PartnerOrgs = () => {
     const handleDragStart = (e) => e.preventDefault();
     const items = [
-        <img src="https://picsum.photos/300/200" onDragStart={handleDragStart} role="presentation" />
-        ,
-
-        <img src="https://picsum.photos/300/200" onDragStart={handleDragStart} role="presentation" />,
-        <img src="https://picsum.photos/300/200" onDragStart={handleDragStart} role="presentation" />,
+        <img src="https://www.logolynx.com/images/logolynx/86/86f70df4b0b70a049b262d98a5094863.png" height={200} onDragStart={handleDragStart} />,
+        <img src="https://www.logolynx.com/images/logolynx/37/37650fd1b35760ad35553b173ecaf7b7.png" height={200} onDragStart={handleDragStart} />,
+        <img src="https://www.logolynx.com/images/logolynx/2c/2cdf786904b88988a5735fa1102ae200.png" height={200} onDragStart={handleDragStart} />,
+        <img src="https://www.logolynx.com/images/logolynx/b0/b087821595d6448f2e96314f46f52b40.jpeg" height={200} onDragStart={handleDragStart} />,
+        <img src="https://www.logolynx.com/images/logolynx/dd/dd24d237ac2bef8e4f77db487fbef9e2.png" height={200} onDragStart={handleDragStart} />,
     ];
 
     return (
-        <Container style={{ backgroundColor: 'black' }}>
+        <Container className='team'>
+            <h1 className='text-center'>Partner Organizations</h1>
             <AliceCarousel items={items} paddingLeft={10} paddingRight={10} disableDotsControls mouseTracking infinite responsive={
                 {
                     0: {
                         items: 1,
                     },
                     640: {
-                        items: 1.5
+                        items: 1.5,
+                        itemsFit: 'cover',
                     },
                     1007: {
-                        items: 3
+                        items: 3,
+                        itemsFit: 'cover',
                     },
                     1024: {
                         items: 3,

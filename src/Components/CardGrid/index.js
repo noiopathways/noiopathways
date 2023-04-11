@@ -9,7 +9,7 @@ import './style.css'
 function CardGrid(props) {
     const colContent = props.data.map(i => (
         <Col key={i.title}>
-            <CardComponent image={i.image} title={i.title} text={i.text} />
+            <CardComponent image={i.image} title={i.title} text={i.text} link={i.link} />
         </Col>)
     )
 
