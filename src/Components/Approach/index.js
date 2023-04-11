@@ -10,7 +10,6 @@ import './style.css'
 function Approach() {
     return (
         <Container className="approach" id="approach">
-            <Banner />
             <Row xs={1} sm={2}>
                 <Col className="text-center my-auto textContainerApproach">
                     <h1 className="text-center">Our Approach</h1>
