@@ -9,13 +9,15 @@ import Contact from '../../Components/Contact'
 import Footer from '../../Components/Footer'
 
 import './style.css'
+import { PortfolioProjects, PortfolioSpeaking } from '../../Components/Portfolio'
 
 function PortfolioPage() {
     return (
         <div className="landingPage">
             <Navigation />
             <Hero />
-
+            <PortfolioProjects />
+            <PortfolioSpeaking />
             <Contact />
             <Footer />
         </div>
