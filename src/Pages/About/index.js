@@ -15,10 +15,10 @@ function AboutPage() {
         <div className="landingPage">
             <Navigation />
             <Hero />
-            <PartnerOrgs />
             <About />
             <Team />
             <Collaborators />
+            <PartnerOrgs />
             <Contact />
             <Footer />
         </div>

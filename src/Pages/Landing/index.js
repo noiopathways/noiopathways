@@ -4,7 +4,7 @@ import About from '../../Components/About'
 import Approach from '../../Components/Approach'
 import Quotes from '../../Components/Quotes'
 import Services from '../../Components/Services'
-import Team from '../../Components/Team'
+import Team, { PartnerOrgs } from '../../Components/Team'
 import Contact from '../../Components/Contact'
 import Footer from '../../Components/Footer'
 
@@ -18,7 +18,9 @@ function Landing() {
             <Approach />
             <Services />
             <Quotes />
+
             <Contact />
+            <PartnerOrgs />
             <Footer />
         </div>
     )
