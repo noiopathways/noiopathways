@@ -10,18 +10,17 @@ import Footer from '../../Components/Footer'
 
 import './style.css'
 
-function Landing() {
+function AboutPage() {
     return (
         <div className="landingPage">
             <Navigation />
             <Hero />
-            <Approach />
-            <Services />
-            <Quotes />
+            <About />
+            <Team />
             <Contact />
             <Footer />
         </div>
     )
 }
 
-export default Landing
+export default AboutPage
