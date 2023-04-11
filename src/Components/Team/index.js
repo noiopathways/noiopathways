@@ -50,17 +50,24 @@ export const PartnerOrgs = () => {
 
     return (
         <Container style={{ backgroundColor: 'black' }}>
-            <AliceCarousel mouseTracking items={items} paddingLeft={10} paddingRight={10} infinite disableDotsControls responsive={
+            <AliceCarousel items={items} paddingLeft={10} paddingRight={10} disableDotsControls mouseTracking infinite responsive={
                 {
                     0: {
                         items: 1,
                     },
+                    640: {
+                        items: 1.5
+                    },
+                    1007: {
+                        items: 3
+                    },
                     1024: {
                         items: 3,
-                        itemsFit: 'contain',
+                        itemsFit: 'cover',
                     }
                 }
-            } />
+            }
+            />
         </Container>
     )
 }
