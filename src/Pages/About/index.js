@@ -15,7 +15,7 @@ function AboutPage() {
         <div className="landingPage">
             <Navigation />
             <Hero />
-            <About />
+            {/* <About /> */}
             <Team />
             <Collaborators />
             <PartnerOrgs />
