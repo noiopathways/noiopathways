@@ -17,8 +17,8 @@ function PortfolioPage() {
             <Navigation />
             <Hero />
             <PortfolioProjects />
-            <PortfolioSpeaking />
-            <Contact />
+            {/* <PortfolioSpeaking /> */}
+            {/* <Contact /> */}
             <Footer />
         </div>
     )

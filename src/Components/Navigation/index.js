@@ -26,8 +26,9 @@ function Navigation() {
                     <Nav.Link href="/about">About</Nav.Link>
                     <Nav.Link href="/#offerings">Offerings</Nav.Link>
                     <Nav.Link href="/projects">Projects</Nav.Link>
-                    <Nav.Link href="/members">Members</Nav.Link>
-                    <Nav.Link href="#contact">Contact</Nav.Link>
+                    <Nav.Link href="/speaking">Speaking</Nav.Link>
+                    {/* <Nav.Link href="/members">Members</Nav.Link> */}
+                    <Nav.Link href="/about#contact">Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
