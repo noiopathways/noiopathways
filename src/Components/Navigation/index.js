@@ -19,14 +19,16 @@ function Navigation() {
 
     return (
         <Navbar className={` ${transparentBg ? "navBackgroundTransparent" : "navBackgroundColor"}`} variant="dark" expand="md" sticky="top">
-            <Navbar.Brand href="#">{transparentBg ? <></> : <Image src="./images/logo.png" height={50} />}</Navbar.Brand>
+            <Navbar.Brand href="/">{transparentBg ? <div className='upper'>np</div> : <Image src="./images/logo.png" height={50} />}</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                 <Nav>
+                    <Nav.Link href="/about">About</Nav.Link>
                     <Nav.Link href="/#offerings">Offerings</Nav.Link>
                     <Nav.Link href="/projects">Projects</Nav.Link>
-                    <Nav.Link href="/about">About</Nav.Link>
-                    <Nav.Link href="#contact">Contact</Nav.Link>
+                    <Nav.Link href="/speaking">Speaking</Nav.Link>
+                    {/* <Nav.Link href="/members">Members</Nav.Link> */}
+                    <Nav.Link href="/about#contact">Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

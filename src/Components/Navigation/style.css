@@ -1,23 +1,28 @@
 .navBackgroundTransparent {
-  background-color: transparent;
-  padding: 8;
+	background-color: transparent;
+	padding: 8;
 }
 
 .navBackgroundColor {
-  background-color: #c27753;
-  /* #0e404b; */
-  padding: 8;
+	background-color: #c27753;
+	/* #0e404b; */
+	padding: 8;
 }
 
 .navbar-brand {
-  margin-left: 10px;
+	margin-left: 10px;
 }
 
 .show,
 .collapsing {
-  background-color: #c27753;
+	background-color: #c27753;
 }
 
 .navbar {
-  font-weight: bolder;
+	font-weight: bolder;
+}
+
+.upper {
+	font-size: xx-small;
+	color: #6e5548;
 }

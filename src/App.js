@@ -6,6 +6,8 @@ import './App.css'
 import AboutPage from './Pages/About';
 import PortfolioPage from './Pages/Portfolio';
 import { AdminPage } from './Pages/Admin';
+import MembershipPage from './Pages/Membership';
+import AppearancesPage from './Pages/Appearances';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Route path="/" element={<Landing />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/projects" element={<PortfolioPage />} />
+        <Route path="/speaking" element={<AppearancesPage />} />
+        {/* <Route path="/members" element={<ComingSoon />} /> */}
         <Route path="/admin" element={<AdminPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

@@ -15,12 +15,12 @@ function Landing() {
         <div className="landingPage">
             <Navigation />
             <Hero />
+            <About />
             <Approach />
             <Services />
             <Quotes />
 
             <Contact />
-            <PartnerOrgs />
             <Footer />
         </div>
     )
