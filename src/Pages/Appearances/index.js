@@ -4,16 +4,19 @@ import Footer from '../../Components/Footer'
 
 import './style.css'
 import { PortfolioSpeaking } from '../../Components/Portfolio'
+import { ContactCTA, ContactSocialIcons } from '../../Components/Contact'
 
 function AppearancesPage() {
     return (
         <div className="landingPage">
             <Navigation />
             <Hero />
-            <div style={{ marginTop: 20 }} className={'text-center'}><h1>description</h1>
-                text here with cta link</div>
+            <div style={{ marginTop: 20 }} className={'text-center'}><h1>Speaking Engagements and Appearances</h1>
+                {/*  TODO: longer description here */}
+                text here
+                <ContactCTA /></div>
             <PortfolioSpeaking />
-            {/*  TODO: longer description here with cta */}
+            <ContactSocialIcons />
             <Footer />
         </div>
     )

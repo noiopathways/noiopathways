@@ -112,7 +112,6 @@ export const PortfolioSpeaking = () => {
     }
     return (
         <Container className="about" id="about">
-            <h1>Speaking Engagements</h1>
             <RenderSpeaking />
         </Container>
     )
