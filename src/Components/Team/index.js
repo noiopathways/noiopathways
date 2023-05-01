@@ -40,8 +40,8 @@ export const Collaborators = () => {
         },
         {
             title: "Lexi Scales",
-            image: "https://i.pravatar.cc/300?img=15",
-            text: "imua kamehameha",
+            image: "./images/collaborators/hammah.JPEG",
+            text: "Native Hawaiian, Web Developer",
             link: 'https://lexi.scalesdev.com'
         },
         {
