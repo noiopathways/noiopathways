@@ -62,11 +62,18 @@ export const Collaborators = () => {
 export const PartnerOrgs = () => {
     const handleDragStart = (e) => e.preventDefault();
     const items = [
-        <img src="https://www.logolynx.com/images/logolynx/86/86f70df4b0b70a049b262d98a5094863.png" height={200} onDragStart={handleDragStart} />,
-        <img src="https://www.logolynx.com/images/logolynx/37/37650fd1b35760ad35553b173ecaf7b7.png" height={200} onDragStart={handleDragStart} />,
-        <img src="https://www.logolynx.com/images/logolynx/2c/2cdf786904b88988a5735fa1102ae200.png" height={200} onDragStart={handleDragStart} />,
-        <img src="https://www.logolynx.com/images/logolynx/b0/b087821595d6448f2e96314f46f52b40.jpeg" height={200} onDragStart={handleDragStart} />,
-        <img src="https://www.logolynx.com/images/logolynx/dd/dd24d237ac2bef8e4f77db487fbef9e2.png" height={200} onDragStart={handleDragStart} />,
+        <img src="./images/partners/berk.png" width={200} onDragStart={handleDragStart} />,
+        <img src="./images/partners/friends-little-saigon.png" width={200} onDragStart={handleDragStart} />,
+        <img src="./images/partners/healthy-kc-coalition.png" width={200} onDragStart={handleDragStart} />,
+        <img src="./images/partners/kc-climate-action.png" width={200} onDragStart={handleDragStart} />,
+        <img src="./images/partners/kc-dnr.png" width={200} onDragStart={handleDragStart} />,
+        <img src="./images/partners/khmer-community.png" width={200} onDragStart={handleDragStart} />,
+        <img src="./images/partners/leadership-tomorrow.png" width={200} onDragStart={handleDragStart} />,
+        <img src="./images/partners/puget-sound-sage.png" width={200} onDragStart={handleDragStart} />,
+        <img src="./images/partners/sage-leaders.png" width={200} onDragStart={handleDragStart} />,
+        <img src="./images/partners/sdot.png" width={200} onDragStart={handleDragStart} />,
+        <img src="./images/partners/sea-planning-community.png" width={200} onDragStart={handleDragStart} />,
+        <img src="./images/partners/uw.png" width={200} onDragStart={handleDragStart} />,
     ];
 
     return (
@@ -75,18 +82,18 @@ export const PartnerOrgs = () => {
             <AliceCarousel items={items} paddingLeft={10} paddingRight={10} disableDotsControls mouseTracking infinite responsive={
                 {
                     0: {
-                        items: 1,
+                        items: 2,
                     },
                     640: {
-                        items: 1.5,
+                        items: 3,
                         itemsFit: 'cover',
                     },
                     1007: {
-                        items: 3,
+                        items: 3.5,
                         itemsFit: 'cover',
                     },
                     1024: {
-                        items: 3,
+                        items: 5,
                         itemsFit: 'cover',
                     }
                 }
