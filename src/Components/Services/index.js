@@ -8,9 +8,9 @@ import './style.css'
 function Services() {
     const servicesObject = [
         {
-            title: "Learn how to navigate - Building Shared Understanding",
+            title: "Learn How to Navigate - Building Shared Understanding",
             image: "./images/path3.jpg",
-            listItem: ["Environmental and climate justice education & workshops", "Equity assessments & advising", "Speaking events & presentations", "Facilitated dialogue", "Racial equity training & coaching"]
+            listItem: ["Environmental and climate justice education & workshops", "Equity assessments & advising", "Speaking events & presentations", "Facilitated dialogue", "Equity training & coaching"]
         },
         {
             title: "Find Your Path - Planning for Systemic Change",
@@ -42,9 +42,19 @@ function Services() {
                 "Curriculum development",
                 "Youth-centered workshops",
                 "Civic engagement trainings",
-                "Individual & group coaching",
-                "BIPOC and WOC leadership resourcing"
             ]
+        },
+        {
+            //TODO: make link to other page
+            title: "Coaching for Individual Leaders and Navigators",
+            image: "./images/path5.jpg",
+            listItem: [
+                "Individual & group coaching",
+                "BIPOC and WOC leadership resourcing",
+                "Career & Executive coaching",
+                "Change management",
+            ]
+
         }
     ]
     return (

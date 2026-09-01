@@ -1,0 +1,188 @@
+.coachingPage {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: bisque; /* match landing page background */
+	padding: 0 18px 18px 18px; /* keep horizontal padding, no top padding so navbar is flush */
+}
+
+/* Ensure navbar spans full viewport width even when page wrapper has horizontal padding */
+.coachingPage .navbar {
+	margin-left: -18px;
+	margin-right: -18px;
+	width: calc(100% + 36px);
+	border-radius: 0;
+	top: 0; /* ensure sticky top alignment */
+	z-index: 1050;
+}
+
+@media (max-width: 600px) {
+	.coachingPage .navbar {
+		margin-left: -12px;
+		margin-right: -12px;
+		width: calc(100% + 24px);
+	}
+}
+
+.coachingContent {
+	flex: 1 0 auto;
+	max-width: 980px;
+	margin: 24px auto;
+	padding: 36px;
+	font-family:
+		'Raleway',
+		-apple-system,
+		BlinkMacSystemFont,
+		'Segoe UI',
+		'Roboto',
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
+	line-height: 1.6;
+	color: #222;
+	background: #bf8e6c; /* light cream page card matching site vibe */
+	border-radius: 6px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+	border: 1px solid rgba(14, 64, 75, 0.04);
+}
+
+.coachingHeader h1 {
+	font-size: 2.6rem;
+	margin: 0 0 6px 0;
+	color: #0e404b;
+	font-weight: 800;
+	letter-spacing: 1px;
+}
+.coachingHeader h2 {
+	font-size: 1rem;
+	margin: 8px 0 20px 0;
+	color: #c27753; /* orange subtitle accent */
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.coachingBody h3 {
+	margin-top: 22px;
+	margin-bottom: 10px;
+	font-size: 1.05rem;
+	color: #0e404b;
+	border-bottom: 1px solid rgba(14, 64, 75, 0.06);
+	padding-bottom: 8px;
+}
+
+.coachingBody p {
+	margin-bottom: 14px;
+	color: #333;
+}
+
+.coachingBody ul {
+	margin-left: 22px;
+	margin-bottom: 12px;
+}
+
+.coachingQuote {
+	border-left: 4px solid #d6c4b8;
+	padding-left: 12px;
+	color: #444;
+	margin: 18px 0;
+	font-style: italic;
+}
+
+.packages {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 18px;
+	margin-top: 12px;
+}
+
+.package {
+	border: 1px solid #e6decf;
+	padding: 18px;
+	border-radius: 6px;
+	background: #844a2e; /* warm brown panel */
+	color: #efece8;
+}
+
+.package h4 {
+	margin: 0 0 6px 0;
+}
+
+.cta {
+	margin-top: 22px;
+	padding: 12px;
+	background: transparent;
+	border-radius: 6px;
+}
+
+/* layout for about row with photo */
+.aboutRow {
+	display: flex;
+	gap: 22px;
+	align-items: flex-start;
+	margin-bottom: 10px;
+}
+.aboutText {
+	flex: 1 1 60%;
+}
+.coachPhoto {
+	flex: 0 0 220px;
+}
+.coachPhoto img {
+	width: 200px;
+	height: auto;
+	border-radius: 6px;
+	border: 4px solid #efece8;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+	display: block;
+}
+
+/* page-level divider */
+hr.section-divider {
+	border: none;
+	border-top: 1px solid rgba(255, 255, 255, 0.06);
+	margin: 22px 0;
+}
+
+@media (max-width: 900px) {
+	.aboutRow {
+		flex-direction: column-reverse;
+	}
+	.coachPhoto {
+		flex: 0 0 auto;
+		text-align: center;
+	}
+	.coachPhoto img {
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 600px) {
+	.coachingContent {
+		padding: 18px;
+		margin: 20px 12px;
+	}
+	.coachingHeader h1 {
+		font-size: 1.8rem;
+	}
+}
+
+/* content-only footer inside the coaching card */
+.contentFooter {
+	margin-top: 18px;
+	text-align: center;
+}
+.content-logo-wrap {
+	display: flex;
+	justify-content: center;
+}
+.content-logo {
+	max-width: 220px;
+	height: auto;
+	opacity: 0.95;
+}
+
+@media (max-width: 600px) {
+	.content-logo {
+		max-width: 160px;
+	}
+}

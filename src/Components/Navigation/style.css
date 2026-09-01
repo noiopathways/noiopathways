@@ -1,23 +1,24 @@
 .navBackgroundTransparent {
-  background-color: transparent;
-  padding: 8;
+	background-color: transparent;
+	padding: 8px;
 }
 
 .navBackgroundColor {
-  background-color: #c27753;
-  /* #0e404b; */
-  padding: 8;
+	background-color: #c27753;
+	/* #0e404b; */
+	padding: 8px;
 }
 
 .navbar-brand {
-  margin-left: 10px;
+	margin-left: 10px;
 }
 
 .show,
 .collapsing {
-  background-color: #c27753;
+	background-color: #c27753;
 }
 
-.navbar {
-  font-weight: bolder;
+.navbar, .navbar .nav-link {
+	font-family: "Raleway", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+	font-weight: 700; /* explicit numeric weight for consistent rendering */
 }
