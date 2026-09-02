@@ -30,7 +30,7 @@ function Coaching() {
                         </div>
 
                         <aside className="coachPhoto">
-                            <img src="/images/jamie.svg" alt="Jamie Stroble-Pauelua" />
+                            <img src="/images/jsp.png" alt="Jamie Stroble-Pauelua" />
                         </aside>
                     </div>
 
